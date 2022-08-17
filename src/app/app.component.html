@@ -1,0 +1,9 @@
+<div *ngFor="let post of postsArry">
+<!-- <p>{{ Post.title }}</p> -->
+</div>
+
+Title: <input type="text" #postTitle>
+Body:  <input type="text" #postBody>
+<button (click)="addPost()">Add post</button>
+<button (click)="putpost()">put post</button>
+Id: <input type="text" #postId>
